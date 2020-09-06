@@ -1,0 +1,46 @@
+.icon-button {
+  /* --background-color:rgba(139,149,240,.6);
+  --background-color-hover:rgba(139,149,240,1);
+  --color: navy; */
+}
+
+.icon-button {
+  background-color: var(--background-color, rgba(207,216,220,.6));
+  color: var(--color, #303030);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: .2em;
+  border: none;
+  padding: 0;
+  width: 6rem;
+  height: 3rem;
+}
+
+.icon-button:hover {
+    background-color: var(--background-color-hover, rgba(207,216,220,1));
+}
+
+.icon-button:active {
+    transform: scale(0.92);
+}
+
+svg[data-icon] path {
+  fill: currentColor !important;
+}
+
+.icon-button-container svg[data-icon] {
+  width: 33%;
+}
+
+div.icon-small-container {
+  width: 2rem;
+}
+
+div.icon-medium-container {
+  width: 3rem;
+}
+
+div.icon-large-container {
+  width: 5rem;
+}

@@ -16,10 +16,10 @@ When you use Font Awesome SVGs:
 > CSS](https://piccalil.li/blog/cube-css/) methodology (which is also
 > embraced by [Every Layout](https://every-layout.dev/)). Andy's
 > concepts styling at the highest level possible makes a lot of sense.
-> I'm still experiment with his concepts, but tried to appy some of them
+> I'm still experiment with his concepts, but tried to apply some of them
 > here to style Font Awesome SVGs. The idea of having CSS primitives
 > that apply ripple-down styling eliminates the need to style SVGs at
-> the SVG tag level. That said, you could easily apply more specfic,
+> the SVG tag level. That said, you could easily apply more specific,
 > granular CSS to do localized styling.
 
 ### Coloring SVGs
@@ -64,11 +64,9 @@ You could also set the color on the SVG element.
 ### Sizing SVGs
 
 SVGs are infinitely scalable and heights and widths constrain to the
-size of their container. If you drop an SVG in an empty HTML file and it
-will scale to fill the entire page. To avoid needing to manage icon size
-individually, consider adopting a couple of icon patterns.
+size of their container. If you drop an SVG in an empty HTML file and it will scale to fill the entire page. To avoid needing to manage icon size individually, consider adopting a couple of icon patterns.
 
-For buttons, consider settting the button size and and then scaling the
+For buttons, consider setting the button size and and then scaling the
 icon to button.
 
     .icon-button {
@@ -105,5 +103,5 @@ and then use general-purpose CSS like this to size the SVGs:
         width: 5rem;
     }
 
-    You could as many sizing options as needed.
+You could as many sizing options as needed.
 

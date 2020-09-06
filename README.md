@@ -1,9 +1,9 @@
 Styling Font Awesome SVGs
 =============
 
-See this code at [CodePen](https://codepen.io/rogerpence/pen/KKzZQKq).
+>See this code at [CodePen](https://codepen.io/rogerpence/pen/KKzZQKq).
 
-### Comments
+When you use Font Awesome SVGs:
 
 -   No Font Awesome fonts or CSS necessary.
 -   No other requests fetching fonts or CSS (but page size grows).
